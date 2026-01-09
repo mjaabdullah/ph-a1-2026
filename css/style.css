@@ -10,8 +10,9 @@
 }
 /* common styles */
 .container {
-    max-width: 1360px;
+    max-width: 1600px;
     margin: 0 auto;
+    padding: 0px 120px;
 }
 .btn {
     background-color: #469165;
@@ -26,10 +27,12 @@
 /* Header styles */
 header {
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 16px 0px;
+}
+header div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header ul {
     display: flex;
@@ -111,4 +114,58 @@ header ul li a {
 .hero-section .hero-bottom .btn-right {
     background-color: transparent;
     border: 1px solid #FFFFFF;
+}
+
+/* Notes Section Styles */
+.note-section {
+    padding-top: 50px;
+    background-color: #F9FAFB;
+    text-align: center;
+}
+.note-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.notes-card-section {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+.notes-card-section .notes-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    text-align: center;
+}
+.notes-card img {
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.notes-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #001931;
+}
+.notes-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
