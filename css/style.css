@@ -296,12 +296,12 @@ footer .footer-top {
 }
 
 .footer-bottom {
-    border-top: 1px solid #E5E7EB;
+    border-top: 1px solid #35425c;
     padding-top: 30px;
     text-align: center;
-    color: #FAFAFA;
 }
 .footer-bottom p {
     font-size: 16px;
     font-weight: 400;
+    color: #c9ccd3
 }
