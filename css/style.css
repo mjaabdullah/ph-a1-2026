@@ -237,7 +237,8 @@ header ul li a {
     align-items: center;
     gap: 16px;
     padding: 80px 40px;
-    background-color: #F7F6F2
+    background-color: #F7F6F2;
+    margin-bottom: 120px;
 }
 .early-access-section h1 {
     font-size: 40x;
@@ -258,3 +259,49 @@ header ul li a {
     line-height: 20px;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #001931;
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    /* text-align: center; */
+}
+footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.footer-top .social-links {
+    max-width: 220px;
+}
+.footer-top .social-links h4 {
+    font-size: 20x;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #FFFFFF
+}
+
+.footer-top .social-links a {
+    text-decoration: none;
+    color: #001931;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #E5E7EB;
+    padding-top: 30px;
+    text-align: center;
+    color: #FAFAFA;
+}
+.footer-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+}
